@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <header class="container">
+        <h1>Pokedex</h1>
+        <form action="index.php" method="get">
+            <div class="search-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                    <path d="M21 21l-6 -6" />
+                </svg>
+                <input type="search" placeholder="Buscar pokemon">
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <main>
+        <div class="header-main-pokemon">
+            <span class="id-pokemon">#1</span>
+            <div class="container-img-pokemon">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" alt="">
+            </div>
+            <div class="container-info-pokemon">
+                <h1>Bulbasaur</h1>
+                <div class="card-types">
+                    <span class="grass">Planta</span>
+                </div>
+                <div class="group-info">
+                    <div class="info-pokemon">
+                        <p>Altura</p>
+                        <span>0.7m</span>
+                    </div>
+                    <div class="info-pokemon">
+                        <p>Peso</p>
+                        <span>6.9kg</span>
+                    </div>
+                    <div class="info-pokemon">
+                        <p>Experiencia base</p>
+                        <span>64</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-stats">
+            <h1>Estadisticas</h1>
+            <div class="stats">
+                <div class="stat-group">
+                    <span>hp</span>
+
+                    <div class="progress-bar"></div>
+                    <span class="counter-stat">45</span>
+
+                </div>
+                <div class="stat-group">
+                    <span>Ataque</span>
+
+                    <div class="progress-bar"></div>
+                    <span class="counter-stat">45</span>
+
+                </div>
+                <div class="stat-group">
+                    <span>Defensa</span>
+
+                    <div class="progress-bar"></div>
+                    <span class="counter-stat">45</span>
+
+                </div>
+                <div class="stat-group">
+                    <span>Ataque especial</span>
+
+                    <div class="progress-bar"></div>
+                    <span class="counter-stat">65</span>
+
+                </div>
+                <div class="stat-group">
+                    <span>Defensa especial</span>
+
+                    <div class="progress-bar"></div>
+                    <span class="counter-stat">65</span>
+
+                </div>
+                <div class="stat-group">
+                    <span>Velocidad</span>
+
+                    <div class="progress-bar"></div>
+                    <span class="counter-stat">45</span>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
